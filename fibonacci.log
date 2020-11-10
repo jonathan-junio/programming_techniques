@@ -1,0 +1,9 @@
+number: 30
+result naive: 832040
+execution time naive: 0.14415214899963757
+
+result dynamic programming: 832040
+execution time dynamic programming: 1.5489000361412764e-05
+
+ex_dp/ex_naive: 0.010744897296988411%
+

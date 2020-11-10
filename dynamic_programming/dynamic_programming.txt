@@ -1,0 +1,11 @@
+Dynamic Programming
+
+It's a general and powerul algorithm design technique. "Careful brute force", recursion and memorization.
+
+problems -> subproblems -> reuse
+memorize and reuse partial results. The big question: What are the subproblems?
+ 
+    1. Fibonacci Algorithm
+    naive version: T(n)=T(n-1)+T(n-2)+O(1) >= c^n (exponential time)
+
+    dynamic programming: Calculates only first recursion, the other results are on the memo table, takes theta(n)
